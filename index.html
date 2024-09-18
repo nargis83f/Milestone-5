@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>pdf download</title>
+</head>
+<body>
+    <form id="resume-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <button type="submit">Generate Resume</button>
+      </form>
+      
+      <div id="shareable-section" class="hidden">
+        <h3>Your resume is ready!</h3>
+        <p>Shareable URL: <a id="resume-link" href="#">Click here</a></p>
+        <button id="copy-link">Copy Link</button>
+        <button id="download-resume">Download as PDF</button>
+      </div>
+      <script src="hack5.js"></script>
+</body>
+</html>
+
